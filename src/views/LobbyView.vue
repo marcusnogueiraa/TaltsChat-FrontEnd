@@ -7,7 +7,7 @@
     </template>
 </template>
 
-<script lang="ts">
+<script>
 import LobbyComponent from "../components/LobbyComponent.vue";
 import QueueComponent from "../components/QueueComponent.vue";
 

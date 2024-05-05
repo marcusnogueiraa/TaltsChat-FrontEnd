@@ -1,6 +1,7 @@
 <template>
     <div class="container">
-        <h1 class="title">Welcome to <br> RandomChat</h1>
+        <img class="logo" src="../assets/talts.png"/>
+        <h1 class="title">Find people and chat<br> anonymously online</h1>
         <input class="username-input" placeholder="Username"/>
         <div class="submit-container">
             <h3 class="nav-link">How does it work?</h3>
@@ -19,6 +20,11 @@ export default {
 </script>
 
 <style scoped>
+    .logo {
+        width: 10rem;
+        height: 10rem;
+    }
+
     .username-input {
         font-weight: 100;
         font-size: 1.2rem;
